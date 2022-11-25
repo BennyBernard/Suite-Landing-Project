@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(202, 185, 202);
+}
+
+.nav-btn {
+    padding: 0.15rem 0.75rem;
+}
+
+.nav-btn i {
+    font-size: 10.25rem;
+}
+
+.center-img {
+    object-fit: cover;
+    float: right;
+
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    padding: 0.375re 0.75rem;
+    text-transform: capitalize;
+    background: rgb(115, 42, 115);
+    text-align: center;
+    color: rgb(15, 33, 33);
+    border-style: inset;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 3.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.btn:hover {
+    color: rgb(132, 214, 39);
+    background: local;
+}
+
+.page-image {
+    height: auto;
+    width: auto;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #73AD21;
+    margin-left: 2rem;
+}
+
+
+@media screen {}
